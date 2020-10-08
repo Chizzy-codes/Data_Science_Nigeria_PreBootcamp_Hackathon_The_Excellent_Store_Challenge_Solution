@@ -1,0 +1,104 @@
+This is a private hackathon open to Data Science Nigeria (DSN) Pre-Bootcamp hackathon participants. To participate in this hackathon, you must register via this link: https://bit.ly/prezindi2020
+
+Babatunji Stores, popularly known as “The Excellent Store”, is a leading indigenous chain of stores with headquarters in Gbagi, Oyo, Nigeria. 
+At the core of their business is a strong sense of excellence and entrepreneurial value. 
+And this is evident in all their 1,500 products, available to all segments of the population at customer-friendly prices, across 10 stores in different cities of Nigeria.
+
+The CEO of the company, Chief A. A. Babatunji, plans to expand the chain of stores to more Nigerian cities in 2021. 
+However, as the COVID19 restrictions have affected the retail business, 
+he sees the need to better understand which products return higher profits at specific stores so as to inform the expansion plan.
+
+You have been engaged as the new Retail Data Analyst to build a predictive model and find out the profit returns on each product at a particular store. 
+The scenario he sees is where a brand of juice sold for N250 in one of his store branches may also be sold at N230 at another store within Chief Babatunji's chain of stores. 
+He needs to therefore understand what type of product, market clusters and store type (location, age, size) will give more profit returns as he plans to expand to more cities in the country.
+
+From your predictions, Chief Babatunji will understand the key characteristics of items and stores, which drive returns and have better insight on how to proceed with the plan of expansion.
+
+
+This is a private hackathon open to Data Science Nigeria participants.
+
+Teams and collaboration
+
+You may participate in this competition as an individual or in a team of up to four people. 
+When creating a team, the team must have a total submission count less than or equal to the maximum allowable submissions as of the formation date. 
+A team will be allowed the maximum number of submissions for the competition, minus the highest number of submissions among team members at team formation. 
+Prizes are transferred only to the individual players or to the team leader.
+
+Multiple accounts per user are not permitted, and neither is collaboration or membership across multiple teams.
+Individuals and their submissions originating from multiple accounts will be disqualified.
+
+Code must not be shared privately outside of a team. 
+Any code that is shared, must be made available to all competition participants through the platform. (i.e. on the discussion boards).
+
+Datasets and packages
+
+The solution must use publicly-available, open-source packages only.
+
+You may use only the datasets provided for this competition. Automated machine learning tools such as automl are not permitted.
+
+You may use pretrained models as long as they are openly available to everyone.
+
+The data used in this competition is the sole property of Zindi and the competition host. 
+You may not transmit, duplicate, publish, redistribute or otherwise provide or make available any competition data to any party not participating in the Competition 
+(this includes uploading the data to any public site such as Kaggle or GitHub). 
+You may upload, store and work with the data on any cloud platform such as Google Colab, AWS or similar, as long as 1) the data remains private and 2) doing so does not contravene Zindi’s rules of use.
+
+You must notify Zindi immediately upon learning of any unauthorised transmission of or unauthorised access to the competition data, and work with Zindi to rectify any unauthorised transmission or access.
+
+Your solution must not infringe the rights of any third party and you must be legally entitled to assign ownership of all rights of copyright in and to the winning solution code to Zindi.
+
+Submissions and winning
+
+You may make a maximum of 10 submissions per day. Your highest-scoring solution on the private leaderboard at the end of the competition will be the one by which you are judged.
+
+Zindi maintains a public leaderboard and a private leaderboard for each competition. The Public Leaderboard includes approximately 50% of the test dataset. 
+While the competition is open, the Public Leaderboard will rank the submitted solutions by the accuracy score they achieve. 
+Upon close of the competition, the Private Leaderboard, which covers the other 50% of the test dataset, will be made public and will constitute the final ranking for the competition.
+
+If your solution places 1st, 2nd, or 3rd in the final ranking,
+you will be required to submit your winning solution code to us for verification and you thereby agree to share all worldwide rights of copyright in and to such winning solution to Zindi.
+
+You acknowledge and agree that Zindi may, without any obligation to do so, remove or disqualify an individual, team, 
+or account if Zindi believes that such individual, team, or account is in violation of these rules. 
+Entry into this competition constitutes your acceptance of these official competition rules.
+
+Participants may compete individually or in teams of up to four people.
+The teams will be judged based on their ranking on the dedicated Zindi leaderboard at the time of competition close.
+All participants in the hackathon must be registered students (undergraduate or graduate) at the university they represent. 
+Lecturers, University staff, and alumni may participate in a mentorship or advisory capacity.
+Teams cannot collaborate or share information with each other.
+All solutions must use machine learning, but teams are permitted and encouraged to use exploratory data analysis in building their solutions.
+All solutions must use publicly-available, open-source packages only.
+Solutions must use only the allowed and available datasets.
+Participants caught cheating or breaking any competition rules will be immediately disqualified from the competition.
+Universities caught cheating or allowing teams to cheat will be immediately disqualified from the competition.
+The winning code must be submitted to Zindi for review and validation immediately at the close of the competition. 
+In the interest of logistics, code review will take place only after the competition has closed and winners have been announced.
+
+
+Evaluation
+
+The evaluation metric for this challenge is Root Mean Squared Error.
+
+Values can be any number.
+
+Data
+
+You have been provided with transactional records of all the stores at product level. 
+Due to power failure and technical glitches, some stores might not report all data, hence the data may have missing values.
+
+Variable Description
+
+Item_ID: Unique product ID
+Item_Weight: Weight of the product
+Item_Sugar_Content: Sugar content of the product
+Item_Visibility: The percentage of total display area of all products in Chief Babatunji’s supermarket allocated to the particular product
+Item_Type: The category to which the product belongs
+Item_Price: Retail price of the product
+Store_ID: Unique store ID
+Store_Start_Year: The year in which store was opened
+Store_Size: The size of the store in terms of total ground area covered
+Store_Location_Type: The type of city in which the store is located
+Store_Type: Description of the store based on category of items sold
+Item_Store_ID: Unique identifier of each product type per supermarket.
+Item_Store_Returns: Profit returns on the product in the particular store. This is the outcome variable to be predicted.
